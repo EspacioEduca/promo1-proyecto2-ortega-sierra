@@ -1,0 +1,116 @@
+body{
+   background-color:  #BAE1FF;
+}
+
+.logo{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #000000;
+    background-color: #102071;
+    display:flex;
+    justify-content: flex-start;
+}
+
+/* .img1 e .img2 solo se diferencia en el background-color. Se pudo hacer una clase general .img y otra .background-blue 
+para el color de fondo */
+
+.img1{
+    border: 10px solid #000000;
+    margin: 1%;
+    padding: 1%;
+    background-color: aliceblue;
+    width: 10%;
+
+}
+.historia{
+    display: flex;
+    justify-content: flex-start;
+    border:10px dashed #102071;
+    background-color: aliceblue;
+}
+.img2{
+    width: 10%;
+    border:10px solid #000000;
+    margin: 1%;
+    padding: 1%;
+}
+.producto{
+    display: flex;
+    justify-content: space-between; 
+     
+}
+.prod{
+    border: 15px double #000000;
+    margin: 1%;
+    padding: 1%;
+    background-color: aliceblue;
+
+}
+.img3{
+    width: 20%;
+
+
+}
+.empresa{
+    text-align: center;
+    color:#102071;
+}
+.dire1{    
+    text-align: center;
+}
+
+/* Estan usando los mismos estilos que en el proyecto 1. Intenten empezar los diseños de cero en los 
+proximos proyectos para que obtengan mas practiquen y prueben cosas diferentes */
+
+.enfoque{
+    border:15px inset #102071;
+    margin: 1%;
+    padding: 1%;
+    background-color: aliceblue;
+}
+.sede{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border: 15px solid #102071;
+    margin: 1%;
+    padding: 1%;
+}
+h1{
+    color:#092071;
+    font-family:'Source Code Pro', monospace;
+}
+h2{
+    color:#0094A4;
+}
+.sede1{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border: 08px solid #102071;
+    margin: 1%;
+    padding: 1%;
+
+}
+.img4{
+    width: 30%;
+    height: 30;
+}
+.img5{
+    width:50% ;
+    height:50% ;
+}
+.fa{
+    color: #102071;
+    text-align: center;
+}
+.tw{
+    color: rgb(111, 183, 231);
+    text-align: center;
+}
+.in{
+    color:orangered;
+    text-align: center; 
+}
+
